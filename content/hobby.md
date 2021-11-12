@@ -1,9 +1,9 @@
 ---
-Title: Hobby
+Title: Const
 Description: Page about my hobby
 ---
 
-Min hobby
+Under konstruktion
 ==================
 
-Brukar byta hobby emellanåt. Just nu är det mycket racketsporter.
+Finns säkert text här förr eller senare
