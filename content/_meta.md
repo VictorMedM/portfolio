@@ -2,7 +2,11 @@
 Logo: image/Penguin_2.png
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
+    - title: Länk till sidans github repo.
       url: https://github.com/VictorMedM/portfolio
-      icon: github
+      icon: fab fa-github
+    - title: Länkar inte till twitter
+      url: https://github.com/VictorMedM/portfolio
+      icon: fab fa-twitter
+
 ---

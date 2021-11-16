@@ -1,6 +1,7 @@
 ---
 Title: Home
 Description: Description of me.
+icon: fas fa-home
 ---
 
 Om mig

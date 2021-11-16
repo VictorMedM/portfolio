@@ -1,0 +1,33 @@
+
+* {
+    color: $font-color;
+    font-family: $font-standard;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-headers;
+}
+
+html {
+    font-size: 100%;
+}
+
+p {
+    font-size: $main-font-size;
+    margin-bottom: $magic-number;
+}
+
+body {
+    line-height: $main-line-height;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
