@@ -1,0 +1,42 @@
+
+@media (max-width: 1345px) {
+  .title a h1 {
+    margin-bottom: 0;
+  }
+
+  .header {
+    width: 100%;
+    gap: 10rem;
+  }
+}
+
+@media (max-width: 1110px) {
+  .header {
+    width: 100%;
+    gap: 5rem;
+  }
+
+  .footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 560px) {
+  .header {
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .nav ul {
+    flex-direction: row;
+  }
+
+  .logo a img {
+    max-height: 130px;
+  }
+
+  .title h1 {
+    font-size: 2em;
+  }
+}

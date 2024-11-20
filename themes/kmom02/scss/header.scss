@@ -1,0 +1,52 @@
+
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: center;
+  gap: 20rem;
+  align-items: center;
+  background-color: rgb(72, 80, 85);
+  color: rgb(240, 247, 255);
+}
+
+.site-header {
+  max-height: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav a {
+  color: #f0ffff;
+  font-size: 1.5rem;
+}
+
+.logo {
+  img {
+    height: 200px;
+
+  }
+}
+
+.title {
+  a {
+    color: rgb(41, 111, 177);
+    text-decoration: none;
+    text-shadow: 1px 1px #333;
+  }
+}
+
+.nav ul li {
+  a {
+    text-decoration: none;
+    text-shadow: 1px 1px #333;
+  }
+}
+
+.active {
+  a {
+    color: rgb(115, 94, 235);
+  }
+}

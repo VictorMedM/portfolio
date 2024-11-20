@@ -1,0 +1,26 @@
+$page-font: 'Montserrat', sans-serif;
+$page-font-size: 1.25em;
+$page-line-height: 1.4;
+$page-font-color: #333;
+
+body {
+  line-height: $page-line-height;
+  font-family: $page-font;
+  color: $page-font-color;
+}
+
+p {
+  font-size: $page-font-size;
+  margin-bottom: 1.75;
+
+}
+
+h1 {
+  font-size: 2.8em;
+  margin-bottom: 3.5rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 600;
+}
