@@ -1,0 +1,78 @@
+
+.landingpage {
+    display: grid;
+    gap: 1.75rem 1.75rem;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.landingpage a {
+    text-decoration: none;
+}
+
+.box {
+    overflow: hidden;
+    border-radius: 15px;
+    border: 1px solid #555;
+    background-color: rgba(235, 235, 235, 0.76);
+}
+
+.box h1 {
+    padding: 0.1em;
+    margin: 0;
+    font-size: 2em;
+    background-color: #404b61d8;
+    color: #eef4ff;
+}
+
+.box p {
+    height: 50px;
+}
+
+.box:hover {
+    box-shadow: 10px 10px 5px 0px #3333338f;
+}
+
+.technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.technology .article {
+    width: 77%;
+}
+
+.technology h1 {
+    font-size: 2em;
+}
+
+.technology .menu {
+    width: 20%;
+    border-right: 1px solid #777;
+    a {
+        text-decoration: none;
+    }
+}
+
+// Tech specific
+
+.html {
+    grid-column: span 2;
+}
+
+.javascript {
+    grid-column: span 2;
+}
+
+.php {
+    grid-column: span 3;
+}
+
+.sqlite {
+    grid-column: span 2;
+}
