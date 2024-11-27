@@ -21,7 +21,7 @@
 .nav-toggle {
     display: none;
 }
-
+/* 
 @media (max-width: 767px) {
     .header {
         flex-direction: column;
@@ -53,4 +53,4 @@
         text-align: center;
         cursor: pointer;
     }
-}
+} */

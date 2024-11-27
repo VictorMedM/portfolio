@@ -6425,9 +6425,26 @@ template {
 body {
   line-height: 1.4;
   font-family: "Montserrat", sans-serif;
+  color: #333;
 }
 
-html, body {
+p {
+  font-size: 1.25em;
+  margin-bottom: 1.75;
+}
+
+h1 {
+  font-size: 2.8em;
+  margin-bottom: 3.5rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+html,
+body {
   height: 100%;
 }
 
@@ -6440,15 +6457,9 @@ body {
   flex: 1 0 auto;
 }
 
-.header, .footer {
+.header,
+.footer {
   flex: 0 0 auto;
-}
-
-.main {
-  width: 100%;
-  max-width: 64rem;
-  padding: 2rem;
-  margin: 0 auto;
 }
 
 blockquote {
@@ -6490,21 +6501,57 @@ pre code {
   display: flex;
   flex-direction: row;
   padding: 2rem;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20rem;
   align-items: center;
   background-color: rgb(72, 80, 85);
   color: rgb(240, 247, 255);
 }
 
 .site-header {
+  max-height: 10rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .nav a {
-  font-size: 3rem;
+  color: #f0ffff;
+  font-size: 1.5rem;
+}
+
+.logo img {
+  height: 200px;
+}
+
+.title a {
+  color: rgb(41, 111, 177);
+  text-decoration: none;
+  text-shadow: 1px 1px #333;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  text-shadow: 1px 1px #333;
+}
+
+.active a {
+  color: rgb(115, 94, 235);
+}
+
+.main {
+  width: 100%;
+  max-width: 64rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.me-image {
+  width: 40%;
+  display: block;
+  margin: auto;
+  border: 2px solid #333;
 }
 
 .footer {
@@ -6516,8 +6563,44 @@ pre code {
   background-color: rgb(72, 80, 85);
   color: rgb(240, 247, 255);
 }
-.footer .social a {
+
+.social a {
   text-decoration: none;
   font-size: 3rem;
-  color: azure;
+  color: #f0ffff;
+}
+
+@media (max-width: 1345px) {
+  .title a h1 {
+    margin-bottom: 0;
+  }
+  .header {
+    width: 100%;
+    gap: 10rem;
+  }
+  .footer {
+    width: 100%;
+  }
+}
+@media (max-width: 1110px) {
+  .header {
+    width: 100%;
+    gap: 5rem;
+  }
+}
+@media (max-width: 560px) {
+  .header {
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+  }
+  .nav ul {
+    flex-direction: row;
+  }
+  .logo a img {
+    max-height: 130px;
+  }
+  .title h1 {
+    font-size: 2em;
+  }
 }
