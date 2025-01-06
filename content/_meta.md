@@ -5,7 +5,13 @@ Social:
     - title: Link till sidans github repo.
       url: https://github.com/VictorMedM/portfolio
       icon: fab fa-github
-    - title2: Länk till kursens youtube.
-      url2: https://www.youtube.com/@DbwebbSe/videos
-      icon2: fab fa-youtube
+    - title: Länk till kursens youtube.
+      url: https://www.youtube.com/@DbwebbSe/videos
+      icon: fab fa-youtube
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---
