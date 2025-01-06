@@ -1,5 +1,12 @@
-@use 'variables' as *;
-
+@use 'variables' as * with (
+  $main-background-color: #2d323a,
+  $body-color: #282d30,
+  $main-font-color: #fff,
+  $code-background: #3a3e46,
+  $code-border: #686868,
+  $link-color: #4493F8,
+  $header-background: #1c1f20,
+);
 
 
 @use '../../node_modules/normalize.css/normalize';
@@ -12,6 +19,7 @@
 @use 'code';
 
 @use 'header';
+
 @use 'footer';
 
 @use 'technology';

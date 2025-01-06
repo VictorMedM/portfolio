@@ -1,3 +1,4 @@
+@use 'variables' as *;
 
 .header {
   display: flex;
@@ -6,8 +7,8 @@
   justify-content: center;
   gap: 20rem;
   align-items: center;
-  background-color: rgb(72, 80, 85);
-  overflow: auto;
+  background-color: $header-background;
+  overflow: visible;
   color: rgb(240, 247, 255);
 }
 

@@ -84,6 +84,12 @@
     padding: 0;
   }
 
+  .box {
+    justify-self: center;
+    width: 500px;
+    grid-column: span 3;
+  }
+
   .main {
     width: 90%;
     justify-content: center;

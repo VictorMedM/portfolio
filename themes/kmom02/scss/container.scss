@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 html,
 body {
   height: 100%;
@@ -18,7 +20,18 @@ body {
   flex: 0 0 auto;
 }
 
+.main {
+  width: 100%;
+  max-width: 64rem;
+  padding: 2rem;
+  margin: 0 auto;
+  background-color: $main-background-color;
+}
 
-
-
-
+.me-image {
+  width: 40%;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  border: 2px solid #333;
+}

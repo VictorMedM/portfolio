@@ -1,0 +1,52 @@
+.analysis-page {
+  display: grid;
+  gap: 1.75rem;
+}
+
+.analysis-page h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.analysis-page a {
+  text-decoration: none;
+}
+
+.box {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 1px solid #555;
+  background-color: rgba(235, 235, 235, 0.76);
+}
+
+.box h1 {
+  padding: 0.1em;
+  margin: 0;
+  font-size: 2em;
+  background-color: #404b61d8;
+  color: #eef4ff;
+}
+
+.box p {
+  height: 50px;
+}
+
+.box:hover {
+  box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.561);
+}
+
+
+
+
+.design-principles {
+  grid-column: span 3;
+}
+
+.colors {
+  grid-column: span 3;
+}
+
+.load {
+  grid-column: span 3;
+}

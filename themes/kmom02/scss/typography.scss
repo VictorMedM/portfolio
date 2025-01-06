@@ -1,12 +1,15 @@
+@use 'variables' as *;
+
 $page-font: 'Montserrat', sans-serif;
 $page-font-size: 1.25em;
 $page-line-height: 1.4;
 $page-font-color: #333;
 
 body {
+  background-color: $body-color;
   line-height: $page-line-height;
   font-family: $page-font;
-  color: $page-font-color;
+  color: $main-font-color;
 }
 
 p {
@@ -23,4 +26,8 @@ h1 {
 
 h2 {
   font-weight: 600;
+}
+
+a {
+  color: $link-color;
 }
